@@ -1,0 +1,106 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Server/1.0.0": {
+        "dependencies": {
+          "Core": "1.0.0.0",
+          "Newtonsoft.Json": "13.0.0.0",
+          "SuperSimpleTcp": "3.0.10.0"
+        },
+        "runtime": {
+          "Server.dll": {}
+        }
+      },
+      "Core/1.0.0.0": {
+        "runtime": {
+          "Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.2.27524"
+          }
+        }
+      },
+      "SuperSimpleTcp/3.0.10.0": {
+        "runtime": {
+          "SuperSimpleTcp.dll": {
+            "assemblyVersion": "3.0.10.0",
+            "fileVersion": "3.0.10.0"
+          }
+        }
+      },
+      "LiteDB/5.0.16.0": {
+        "runtime": {
+          "LiteDB.dll": {
+            "assemblyVersion": "5.0.16.0",
+            "fileVersion": "5.0.16.0"
+          }
+        }
+      },
+      "Renci.SshNet/2020.0.2.0": {
+        "runtime": {
+          "Renci.SshNet.dll": {
+            "assemblyVersion": "2020.0.2.0",
+            "fileVersion": "2020.0.2.0"
+          }
+        }
+      },
+      "SshNet.Security.Cryptography/1.3.0.0": {
+        "runtime": {
+          "SshNet.Security.Cryptography.dll": {
+            "assemblyVersion": "1.3.0.0",
+            "fileVersion": "1.3.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Server/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Core/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SuperSimpleTcp/3.0.10.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LiteDB/5.0.16.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Renci.SshNet/2020.0.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SshNet.Security.Cryptography/1.3.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
